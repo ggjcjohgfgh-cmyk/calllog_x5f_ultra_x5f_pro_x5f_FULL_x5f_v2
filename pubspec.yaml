@@ -1,0 +1,33 @@
+name: calllog_ultra_pro
+description: سجل المكالمات برو - احترافي كامل مع كشف الاحتيال والحماية
+publish_to: 'none'
+version: 3.0.0+3000
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  call_log: ^4.0.0
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  url_launcher: ^6.2.5
+  flutter_contacts: ^1.1.9+1
+  telephony: ^0.2.0
+  record: ^5.0.4
+  just_audio: ^0.9.39
+  device_info_plus: ^9.1.1
+  crypto: ^3.0.3
+  local_auth: ^2.1.7
+  flutter_phone_direct_caller: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
